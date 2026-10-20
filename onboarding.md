@@ -2,7 +2,7 @@
 
 Welcome to the technical architecture practice within Schools Digital
 
-Principles
+## Principles
 
 - Work in the open
 - Favour commodity solutions
@@ -27,11 +27,11 @@ When the application is deployed on the platform it integrates with platform sol
 
 Check your cloud costings with the Infrastructure team to see if we need to consult with FinOps with any changes to our reserved capacity.
 
-Data warehousing
+### Data warehousing
 
 The portfolio has a pattern for integrating transactional data into the portfolio data warehouse, this is different to the rest of the department as it uses GCP. When you need to integrate initiate the process via the Data and Insights Teams channel.
 
-Commodity technology
+### Commodity technology
 
 In your designs, favour Postgres as a datastore, Kubernetes as infrastructure functionality, REST as a protocol, JSON as an exchange format.
 
